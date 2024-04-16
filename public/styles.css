@@ -1,0 +1,112 @@
+body, h1 {
+    margin: 0px;
+    padding: 0xp;
+    
+}
+.encabezado{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(16, 16, 114);
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 3px 5px black;
+}
+.cont-encabezado{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.titulo{
+    padding: 50px;
+    font-size: 60px;
+    font-family: "Fugaz One", sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+.cont-buscador{
+    width: 400px;
+    height: 900px;
+    background-color: rgb(16, 16, 114);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    box-shadow: 5px -2px 4px black;
+    
+    
+    
+}
+.cont-sec{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    box-shadow: 0 3px 5px black;
+}
+.buscador{
+    width: 100%;
+    height: 100%;
+}
+.lbl-buscador{
+    color: white;
+    margin-left: 15px;
+    font-size: 24px;
+    
+}
+
+.input-buscador{
+    margin-left: 15px;
+    width: 220px;
+    height: 28px;  
+    
+}
+
+.btn-buscador{
+    width: 40px;
+    height: 30px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    
+    
+}
+
+.txt-area{
+    width: 90%;
+    height: 750px;
+    margin-left: 15px;
+    background-color: rgb(16, 16, 114);
+    resize: none;
+    color: white;
+}
+.cont-calc{
+    width: 100%;
+    height: 900px;
+    display: grid;
+
+}
+.cont-resultados{
+    color: white;
+    
+}
+li{
+    cursor: pointer;
+
+}
+li:hover{
+    color: yellow;
+}
+
+.calculator{
+    width: 90%;
+    height: 80px;
+    text-align: left;
+    margin: 40px auto;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: end;
+}
